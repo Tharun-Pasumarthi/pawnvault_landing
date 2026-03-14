@@ -15,7 +15,7 @@ function Footer() {
     >
       <Container maxWidth="lg">
         <Typography variant="body2" align="center">
-          © {year} Pawn Vault · Developed by Ramesh Tech Solutions
+          © {year} Pawn Vault · Developed by Tharun
         </Typography>
       </Container>
     </Box>
