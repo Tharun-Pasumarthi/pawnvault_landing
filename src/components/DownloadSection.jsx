@@ -59,5 +59,5 @@ function DownloadSection() {
     </Box>
   );
 }
-
+//Replaced the updated version apk
 export default DownloadSection;
