@@ -74,7 +74,7 @@ function HeroSection() {
             size="large"
             startIcon={<AndroidIcon />}
             component="a"
-            href="/pawnvault.apk"
+            href="/pawnvault2.apk"
             download
             sx={{ px: 4, py: 1.4 }}
           >
