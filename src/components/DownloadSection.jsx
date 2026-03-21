@@ -22,7 +22,7 @@ function DownloadSection() {
                 size="large"
                 startIcon={<FileDownloadOutlinedIcon />}
                 component="a"
-                href="/pawnvault2.apk"
+                href="/pawnvault.apk"
                 download
                 sx={{ alignSelf: "flex-start", px: 4, py: 1.4 }}
               >
