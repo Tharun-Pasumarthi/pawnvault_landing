@@ -11,7 +11,7 @@ A modern, responsive landing page for the Pawn Vault Android app built with Reac
 
 ## Notes
 
-- Replace `public/pawnvault2.apk` with the real APK.
+- Replace `public/pawn-vault.apk` with the real APK.
 - Add screenshots to `public/screenshots/`:
   - `login.png`
   - `dashboard.png`

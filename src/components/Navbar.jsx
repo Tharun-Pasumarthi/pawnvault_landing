@@ -22,6 +22,7 @@ const navItems = [
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const apkHref = "/pawn-vault.apk";
 
   const handleToggle = () => {
     setOpen((prev) => !prev);
@@ -104,7 +105,7 @@ function Navbar() {
             ))}
             <ListItemButton
               component="a"
-              href="/pawnvault2.apk"
+              href={apkHref}
               onClick={handleToggle}
               sx={{ borderRadius: 2 }}
             >

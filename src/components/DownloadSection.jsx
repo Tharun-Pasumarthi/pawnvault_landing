@@ -3,6 +3,8 @@ import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 
 function DownloadSection() {
+  const apkHref = "/pawn-vault.apk";
+
   return (
     <Box component="section" id="download" sx={{ py: { xs: 8, md: 10 } }}>
       <Container maxWidth="lg">
@@ -22,7 +24,7 @@ function DownloadSection() {
                 size="large"
                 startIcon={<FileDownloadOutlinedIcon />}
                 component="a"
-                href="/pawnvault.apk"
+                href={apkHref}
                 download
                 sx={{ alignSelf: "flex-start", px: 4, py: 1.4 }}
               >
@@ -59,5 +61,5 @@ function DownloadSection() {
     </Box>
   );
 }
-//Replaced the updated version apk
+
 export default DownloadSection;

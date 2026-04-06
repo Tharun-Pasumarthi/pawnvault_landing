@@ -3,6 +3,8 @@ import { Box, Button, Chip, Container, Stack, Typography } from "@mui/material";
 import AndroidIcon from "@mui/icons-material/Android";
 
 function HeroSection() {
+  const apkHref = "/pawn-vault.apk";
+
   return (
     <Box
       component="section"
@@ -74,7 +76,7 @@ function HeroSection() {
             size="large"
             startIcon={<AndroidIcon />}
             component="a"
-            href="/pawnvault.apk"
+            href={apkHref}
             download
             sx={{ px: 4, py: 1.4 }}
           >
